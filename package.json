@@ -3,12 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fontsource/roboto": "^4.5.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "canvas-to-image": "^2.2.0",
+    "chart.js": "^2.9.4",
+    "downloadjs": "^1.4.7",
+    "html-to-image": "^1.7.0",
+    "html2canvas": "^1.3.2",
     "react": "^17.0.1",
+    "react-chartjs-2": "^2.11.1",
+    "react-color": "^2.19.3",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "typeface-roboto": "^1.1.13",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

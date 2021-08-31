@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 .App {
   text-align: center;
 }
@@ -26,6 +28,36 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.doughnut-container {
+  width: 700px;
+  margin: auto;
+  position: relative;
+}
+
+.value-container {
+  width: 170px;
+  position: absolute;
+  top: 94px;
+  left: calc(50% - 86px);
+  height: 170px;
+  border: solid .5px #d9d9d9;
+  border-radius: 50%;
+}
+
+.value-container p {
+  font-size: 32px;
+  margin-top: 39%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #a0a0a0;
+}
+
+.inputs {
+  width: 200px;
+  position: fixed;
+  top: 40px;
 }
 
 @keyframes App-logo-spin {
